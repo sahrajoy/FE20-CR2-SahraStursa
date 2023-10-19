@@ -16,9 +16,8 @@ body {
 .navbar {
     background-color: var.$dark-background-color;
     padding: 1vh 3vh;
-
+    flex-direction: row;
     .fa {
-        margin: 5px 10px;
         font-size: 20px;
         color: rgb(255, 255, 255);
     }
@@ -126,8 +125,8 @@ footer {
 
     #copyright {
         display: flex;
-        justify-content: end;
-
+        justify-content: center;
+        align-items: center;
     }
 }
 

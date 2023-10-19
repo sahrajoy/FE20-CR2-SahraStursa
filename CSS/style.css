@@ -13,9 +13,9 @@ body {
 .navbar {
   background-color: #293133;
   padding: 1vh 3vh;
+  flex-direction: row;
 }
 .navbar .fa {
-  margin: 5px 10px;
   font-size: 20px;
   color: rgb(255, 255, 255);
 }
@@ -109,7 +109,8 @@ footer #subscribe button {
 }
 footer #copyright {
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-body {
